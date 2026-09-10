@@ -6,7 +6,8 @@ import { Container } from "@/components/common/Container";
 import { Button } from "@/components/ui/button";
 import { MobileNav } from "@/components/layout/MobileNav";
 import { SITE_CONFIG } from "@/config/site";
-import { CodeIcon, MenuIcon } from "@/components/ui/icons";
+import Image from "next/image";
+import { MenuIcon } from "@/components/ui/icons";
 import { cn } from "@/lib/utils";
 
 export function Header() {
@@ -36,18 +37,21 @@ export function Header() {
           <Link
             href="/"
             className="flex items-center gap-2.5 group focus:outline-none focus:ring-2 focus:ring-[#00A870] rounded-lg p-1"
-            aria-label="LayaninWeb Beranda"
+            aria-label={`${SITE_CONFIG.name} Beranda`}
           >
             <div className="w-10 h-10 rounded-xl overflow-hidden flex items-center justify-center shadow-xs transition-transform duration-300 group-hover:scale-105 group-hover:rotate-2">
-              <img
-              src="/images/logo.png"
-              alt="LayaninWeb Logo"
-              className="w-full h-full object-contain"
+              <Image
+                src="/images/logo.png"
+                alt={`${SITE_CONFIG.name} logo`}
+                width={40}
+                height={40}
+                sizes="40px"
+                className="w-full h-full object-contain"
               />
             </div>
             <div className="flex flex-col">
               <span className="font-heading font-extrabold text-2xl text-[#222222] tracking-tight leading-none">
-                Layanin<span className="text-[#00A870]">Web</span>
+                Joki<span className="text-[#00A870]">Coding</span>
               </span>
               <span className="text-[10px] font-medium tracking-widest text-[#646464] uppercase mt-0.5">
                 Dev & Task Solutions

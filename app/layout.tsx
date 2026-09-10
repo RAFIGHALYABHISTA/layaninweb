@@ -38,6 +38,10 @@ export const metadata: Metadata = {
     template: `%s | ${SITE_CONFIG.name}`,
   },
   description: SITE_CONFIG.description,
+  applicationName: SITE_CONFIG.name,
+  category: "education",
+  classification: "Education and programming services",
+  referrer: "origin-when-cross-origin",
   keywords: [
     "joki tugas coding",
     "jasa joki coding",
@@ -79,6 +83,17 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
   },
 };
 
@@ -92,7 +107,7 @@ export default function RootLayout({
       lang="id"
       className={`${montserrat.variable} ${poppins.variable} ${geist.variable} h-full scroll-smooth`}
     >
-      <body className="min-h-full flex flex-col bg-white text-[#222222] font-sans antialiased selection:bg-[#00A870]/20 selection:text-[#00A870]">
+      <body className="min-h-full flex flex-col overflow-x-hidden bg-white text-[#222222] font-sans antialiased selection:bg-[#00A870]/20 selection:text-[#00A870]">
         <Header />
         <div className="flex-1 flex flex-col">{children}</div>
         <Footer />

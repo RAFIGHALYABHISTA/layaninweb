@@ -39,6 +39,28 @@ html {
   scroll-behavior: smooth;
 }
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+img, svg, video {
+  max-width: 100%;
+}
+
+button, a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus-visible {
+  outline: 3px solid var(--primary-emerald);
+  outline-offset: 3px;
+}
+
+.motion-visible {
+  opacity: 1;
+  transform: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -170,4 +192,14 @@ body {
 
 .btn-hover-shine:hover::after {
   transform: translateX(300%) skewX(-20deg);
+}
+
+@media (max-width: 640px) {
+  .rounded-card-lg {
+    border-radius: 22px 22px 16px 16px;
+  }
+
+  .rounded-card-sm {
+    border-radius: 16px 16px 16px 22px;
+  }
 }

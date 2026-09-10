@@ -22,7 +22,7 @@ export function RevealOnScroll({
   React.useEffect(() => {
     // If reduced motion is preferred, reveal immediately
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-      setIsVisible(true);
+      ref.current?.classList.add("motion-visible");
       return;
     }
 

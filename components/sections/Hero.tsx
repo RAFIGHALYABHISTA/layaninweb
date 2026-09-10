@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Container } from "@/components/common/Container";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ArrowRightIcon, SparklesIcon, CheckIcon, CodeIcon, TerminalIcon } from "@/components/ui/icons";
+import { ArrowRightIcon, SparklesIcon, CheckIcon, TerminalIcon } from "@/components/ui/icons";
 
 export function Hero() {
   return (

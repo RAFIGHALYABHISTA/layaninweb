@@ -72,11 +72,11 @@ export function Services() {
                   className="flex flex-col justify-between card-hover-effect border border-black/[0.06] bg-white group h-full"
                 >
                   <CardHeader>
-                    <div className="flex items-center justify-between mb-4">
+                    <div className="flex items-start justify-between gap-3 mb-4">
                       <div className="w-14 h-14 rounded-2xl bg-[#00A870]/10 text-[#00A870] flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:bg-[#00A870] group-hover:text-white group-hover:shadow-sm">
                         <Icon size={28} />
                       </div>
-                      <span className="text-xs font-semibold px-3 py-1 rounded-full bg-[#F4FAF7] text-[#00A870] border border-[#00A870]/20 transition-colors group-hover:bg-[#00A870]/10">
+                      <span className="max-w-[65%] text-right text-xs font-semibold px-3 py-1 rounded-full bg-[#F4FAF7] text-[#00A870] border border-[#00A870]/20 transition-colors group-hover:bg-[#00A870]/10">
                         {service.badge}
                       </span>
                     </div>

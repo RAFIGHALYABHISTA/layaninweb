@@ -1,10 +1,10 @@
 import * as React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Container } from "@/components/common/Container";
 import { SITE_CONFIG } from "@/config/site";
 import { CONTACT_CONFIG } from "@/config/contact";
 import {
-  CodeIcon,
   WhatsAppIcon,
   MailIcon,
   InstagramIcon,
@@ -23,12 +23,19 @@ export function Footer() {
               className="flex items-center gap-2.5 focus:outline-none focus:ring-2 focus:ring-[#00A870] rounded-lg w-fit"
               aria-label="JokiCoding Beranda"
             >
-              <div className="w-10 h-10 rounded-xl bg-[#00A870] flex items-center justify-center text-white shadow-xs">
-                <CodeIcon size={22} />
+              <div className="w-10 h-10 rounded-xl overflow-hidden flex items-center justify-center shadow-xs">
+                <Image
+                  src="/images/logo.png"
+                  alt={`${SITE_CONFIG.name} logo`}
+                  width={40}
+                  height={40}
+                  sizes="40px"
+                  className="w-full h-full object-contain"
+                />
               </div>
               <div className="flex flex-col">
                 <span className="font-heading font-extrabold text-2xl text-[#222222] tracking-tight leading-none">
-                  Layanin<span className="text-[#00A870]">Web</span>
+                  Joki<span className="text-[#00A870]">Coding</span>
                 </span>
                 <span className="text-[10px] font-medium tracking-widest text-[#646464] uppercase mt-0.5">
                   Dev & Task Solutions

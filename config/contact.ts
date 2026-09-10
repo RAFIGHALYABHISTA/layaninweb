@@ -15,7 +15,7 @@ export const CONTACT_CONFIG = {
   whatsapp: {
     numberFormatted: "+62 812-3184-7789",
     rawNumber: "6281231847789",
-    href: "https://wa.me/6282123456780?text=Halo%20JokiCoding%2C%20saya%20mau%20konsultasi%20pengerjaan%20tugas%20coding.%0A%0ABahasa%2FFramework%3A%20%0ADeadline%3A%20%0ADeskripsi%20Tugas%3A%20",
+    href: "https://wa.me/6281231847789?text=Halo%20JokiCoding%2C%20saya%20mau%20konsultasi%20pengerjaan%20tugas%20coding.%0A%0ABahasa%2FFramework%3A%20%0ADeadline%3A%20%0ADeskripsi%20Tugas%3A%20",
     status: "configured" as const,
     ctaText: "Chat WhatsApp & Kirim Soal",
     note: "Respon tercepat via WhatsApp (online setiap hari 08.00 – 23.00 WIB). Fast deal & konsultasi gratis.",
