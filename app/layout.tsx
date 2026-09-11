@@ -70,7 +70,7 @@ export const metadata: Metadata = {
         url: "/images/joki-coding-hero.jpg",
         width: 1200,
         height: 900,
-        alt: "JokiCoding - Solusi Cepat & Rapi Joki Tugas Coding Bergaransi",
+        alt: "LayaninWeb - Solusi Cepat & Rapi Joki Tugas Coding Bergaransi",
       },
     ],
   },

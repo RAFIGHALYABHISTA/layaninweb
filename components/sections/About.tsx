@@ -37,7 +37,7 @@ export function About() {
           <SectionHeading
             eyebrow="Tentang LayaninWeb"
             title="Solusi Pengerjaan Tugas & Projek Coding Bebas Pusing"
-            description="JokiCoding hadir sebagai partner terpercaya bagi mahasiswa dan pelajar untuk menyelesaikan tugas praktikum, ujian akhir semester, hingga skripsi IT dengan standar profesional."
+            description="LayaninWeb hadir sebagai partner terpercaya bagi mahasiswa dan pelajar untuk menyelesaikan tugas praktikum, ujian akhir semester, hingga skripsi IT dengan standar profesional."
           />
         </RevealOnScroll>
 
@@ -77,7 +77,7 @@ export function About() {
               &ldquo;Tugas coding bukan lagi beban. Dapatkan source code rapi berstandar industri dengan penjelasan alur yang siap kamu presentasikan.&rdquo;
             </p>
             <span className="text-xs sm:text-sm font-medium text-[#00A870] tracking-wide uppercase">
-              — Standar Kualitas Pengerjaan JokiCoding
+              — Standar Kualitas Pengerjaan LayaninWeb
             </span>
           </div>
         </RevealOnScroll>

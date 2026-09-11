@@ -21,7 +21,7 @@ export function Footer() {
             <Link
               href="/"
               className="flex items-center gap-2.5 focus:outline-none focus:ring-2 focus:ring-[#00A870] rounded-lg w-fit"
-              aria-label="JokiCoding Beranda"
+              aria-label="LayaninWeb Beranda"
             >
               <div className="w-10 h-10 rounded-xl overflow-hidden flex items-center justify-center shadow-xs">
                 <Image
@@ -112,7 +112,7 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full border border-[#E2E2E2] flex items-center justify-center text-[#222222] hover:text-[#00A870] hover:border-[#00A870] hover:bg-[#F4FAF7] transition-all"
-                aria-label="Instagram JokiCoding"
+                aria-label="Instagram LayaninWeb"
               >
                 <InstagramIcon size={18} />
               </a>
@@ -121,7 +121,7 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full border border-[#E2E2E2] flex items-center justify-center text-[#222222] hover:text-[#00A870] hover:border-[#00A870] hover:bg-[#F4FAF7] transition-all"
-                aria-label="LinkedIn JokiCoding"
+                aria-label="LinkedIn LayaninWeb"
               >
                 <LinkedInIcon size={18} />
               </a>

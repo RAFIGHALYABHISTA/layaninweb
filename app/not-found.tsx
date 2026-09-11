@@ -17,7 +17,7 @@ export default function NotFound() {
           Halaman Tidak Ditemukan
         </h1>
         <p className="text-base sm:text-lg text-[#646464] max-w-md mb-8">
-          Halaman yang Anda tuju tidak ditemukan atau URL salah. Silakan kembali ke beranda JokiCoding untuk konsultasi tugas.
+          Halaman yang Anda tuju tidak ditemukan atau URL salah. Silakan kembali ke beranda LayaninWeb untuk konsultasi tugas.
         </p>
         <Link href="/">
           <Button variant="solid" size="default" className="gap-2">

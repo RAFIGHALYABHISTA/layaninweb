@@ -61,7 +61,7 @@ export function MobileNav({ open, onOpenChange }: MobileNavProps) {
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 hover:text-[#00A870] transition-colors p-1"
-            aria-label="Chat WhatsApp JokiCoding"
+            aria-label="Chat WhatsApp LayaninWeb"
           >
             <WhatsAppIcon size={16} />
             <span>WhatsApp</span>
@@ -70,7 +70,7 @@ export function MobileNav({ open, onOpenChange }: MobileNavProps) {
           <a
             href={CONTACT_CONFIG.email.href}
             className="flex items-center gap-1.5 hover:text-[#00A870] transition-colors p-1"
-            aria-label="Kirim Email JokiCoding"
+            aria-label="Kirim Email LayaninWeb"
           >
             <MailIcon size={16} />
             <span>Email</span>

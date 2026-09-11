@@ -1,5 +1,5 @@
 /**
- * Site-wide configuration and navigation settings for JokiCoding
+ * Site-wide configuration and navigation settings for LayaninWeb
  */
 
 export const SITE_CONFIG = {

@@ -1,5 +1,5 @@
 /**
- * Centralized Contact Configuration for JokiCoding
+ * Centralized Contact Configuration for LayaninWeb
  */
 
 export const CONTACT_CONFIG = {
@@ -7,7 +7,7 @@ export const CONTACT_CONFIG = {
   tagline: "Solusi Cepat, Rapi & Bergaransi Tugas Coding Anda",
   email: {
     address: "layaninweb@gmail.com",
-    href: "mailto:layaninweb@gmail.com?subject=Order%20Tugas%20Coding%20-%20JokiCoding",
+    href: "mailto:layaninweb@gmail.com?subject=Order%20Tugas%20Coding%20-%20LayaninWeb",
     status: "configured" as const,
     ctaText: "Kirim File Soal via Email",
     note: "Kirimkan file panduan tugas, soal PDF, atau repository projek untuk dianalisis tim kami.",
@@ -36,7 +36,7 @@ export const CONTACT_CONFIG = {
       note: "Lihat testimoni pengerjaan, tips koding mahasiswa, dan promo tugas mepet.",
     },
     linkedin: {
-      handle: "JokiCoding Dev Network",
+      handle: "LayaninWeb Dev Network",
       href: "https://www.linkedin.com/company/jokicoding",
       status: "configured" as const,
       ctaText: "Kunjungi LinkedIn",

@@ -90,7 +90,7 @@ export function Hero() {
             <div className="relative w-full max-w-[540px] aspect-[4/3] rounded-card-lg overflow-hidden shadow-sainsin-ambient border border-black/[0.06] bg-[#F4FAF7] animate-float-slow group">
               <Image
                 src="/images/joki-coding-hero.jpg"
-                alt="Tim programmer JokiCoding sedang menyelesaikan tugas pemrograman dengan clean code"
+                alt="Tim programmer LayaninWeb sedang menyelesaikan tugas pemrograman dengan clean code"
                 fill
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 500px"
