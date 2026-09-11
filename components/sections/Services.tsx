@@ -57,7 +57,7 @@ export function Services() {
           <SectionHeading
             eyebrow="Layanan Kami"
             title="Cakupan Bahasa Pemrograman & Jenis Projek"
-            description="Apapun bahasa dan framework yang digunakan di kampusmu, tim developer JokiCoding siap menyelesaikannya secara tuntas dan rapi."
+            description="Apapun bahasa dan framework yang digunakan di kampusmu, tim developer LayaninWeb siap menyelesaikannya secara tuntas dan rapi."
           />
         </RevealOnScroll>
 

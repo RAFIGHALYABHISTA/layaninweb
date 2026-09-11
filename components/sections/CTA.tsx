@@ -32,7 +32,7 @@ export function CTA() {
               </h2>
 
               <p className="text-base sm:text-lg text-white/90 font-normal leading-relaxed mb-10 max-w-2xl">
-                Kirimkan modul atau soal tugasmu sekarang ke tim JokiCoding. Dapatkan review teknis cepat, estimasi durasi pengerjaan, dan tarif mahasiswa tanpa ribet.
+                Kirimkan modul atau soal tugasmu sekarang ke tim LayaninWeb. Dapatkan review teknis cepat, estimasi durasi pengerjaan, dan tarif mahasiswa tanpa ribet.
               </p>
 
               <Link href="#contact">

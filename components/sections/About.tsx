@@ -35,7 +35,7 @@ export function About() {
       <Container>
         <RevealOnScroll>
           <SectionHeading
-            eyebrow="Tentang JokiCoding"
+            eyebrow="Tentang LayaninWeb"
             title="Solusi Pengerjaan Tugas & Projek Coding Bebas Pusing"
             description="JokiCoding hadir sebagai partner terpercaya bagi mahasiswa dan pelajar untuk menyelesaikan tugas praktikum, ujian akhir semester, hingga skripsi IT dengan standar profesional."
           />
