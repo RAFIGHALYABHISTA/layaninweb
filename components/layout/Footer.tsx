@@ -35,7 +35,7 @@ export function Footer() {
               </div>
               <div className="flex flex-col">
                 <span className="font-heading font-extrabold text-2xl text-[#222222] tracking-tight leading-none">
-                  Joki<span className="text-[#00A870]">Coding</span>
+                  Layanin<span className="text-[#00A870]">Web</span>
                 </span>
                 <span className="text-[10px] font-medium tracking-widest text-[#646464] uppercase mt-0.5">
                   Dev & Task Solutions
