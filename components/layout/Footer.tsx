@@ -129,6 +129,35 @@ export function Footer() {
           </div>
         </div>
 
+        <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_minmax(0,2fr)] gap-6 lg:gap-10 py-10 border-b border-[#E2E2E2]">
+          <div className="flex flex-col justify-center gap-3">
+            <h3 className="font-heading font-bold text-base text-[#222222]">
+              Lokasi Kami
+            </h3>
+            <p className="text-sm text-[#646464] leading-relaxed">
+              {CONTACT_CONFIG.location.address}
+            </p>
+            <a
+              href={CONTACT_CONFIG.location.mapsHref}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-fit text-sm font-semibold text-[#00A870] hover:text-[#008f5f] transition-colors"
+            >
+              Buka di Google Maps &rarr;
+            </a>
+          </div>
+          <div className="overflow-hidden rounded-xl border border-[#E2E2E2] bg-[#F4FAF7] shadow-xs">
+            <iframe
+              src={CONTACT_CONFIG.location.mapsEmbedHref}
+              title={`Peta lokasi ${CONTACT_CONFIG.location.address}`}
+              className="h-64 w-full border-0"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              allowFullScreen
+            />
+          </div>
+        </div>
+
         {/* Copyright */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#646464]">
           <p>© {SITE_CONFIG.year} LayaninWeb. Hak Cipta Dilindungi Undang-Undang.</p>

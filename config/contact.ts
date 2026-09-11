@@ -49,7 +49,10 @@ export const CONTACT_CONFIG = {
     timezone: "WIB (Layanan Fast Response Deadline Mepet)",
   },
   location: {
+    address: "Jl. Sidosermo Airdas",
     city: "Indonesia",
     description: "Layanan pengerjaan tugas & projek pemrograman daring seluruh Indonesia.",
+    mapsHref: "https://www.google.com/maps/search/?api=1&query=Jl.+Sidosermo+Airdas",
+    mapsEmbedHref: "https://www.google.com/maps?q=Jl.+Sidosermo+Airdas&output=embed",
   },
 } as const;
